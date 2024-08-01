@@ -11,7 +11,7 @@ database.connect()
 app.use(express.json());
 app.use(cors(
   {
-  origin:"https://note-book-client.vercel.app/",
+  origin:"https://note-book-client.vercel.app",
   credentials:true,
 }
 ))
